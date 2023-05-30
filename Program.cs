@@ -39,7 +39,7 @@ try
     fornecedorRepository.Exportar(fornecedor);
     fornecedorRepository.Importar(fornecedor.IdFornecedor);
     
-    //Console.WriteLine("\nOperação realizada com sucesso.");
+    Console.WriteLine("\nOperação realizada com sucesso.");
 }
 catch (Exception e)
 {
